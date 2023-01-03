@@ -1,3 +1,4 @@
-function func(e){
-    event.preventDefault()
+function func(){
+    event.preventDefault();
+    console.log("It worked")
 }

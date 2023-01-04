@@ -311,6 +311,10 @@ form {
   margin: 50px auto;
 }
 
+form .page-name {
+  color: #fff;
+}
+
 .feedback-input {
   color: white;
   font-weight: 500;

@@ -152,7 +152,12 @@
       <section id="contact"></section>
       <hero class="hero">
         <img src="images/moutain.jpeg" class="background" />
-        <form onsubmit="func()" action="https://submit-form.com/VMogWAyU" >
+        <form action="https://submit-form.com/VMogWAyU" onsubmit="func()" >
+          <input
+            type="hidden"
+            name="_redirect"
+            value="https://google.com"
+  />
           <input
             name="name"
             type="text"
@@ -200,6 +205,6 @@
         </div>
       </section>
     </div>
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

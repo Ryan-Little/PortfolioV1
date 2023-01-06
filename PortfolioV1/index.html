@@ -152,7 +152,11 @@
       <section id="contact"></section>
       <hero class="hero">
         <img src="images/moutain.jpeg" class="background" />
-        <form action="https://submit-form.com/VMogWAyU" onsubmit="func()" >
+        <form
+        action="https://submit-form.com/VMogWAyU"   action="https://example.demo"
+        data-botpoison-public-key="pk_39736e07-29e7-4722-97f7-87194eaa78f6" 
+        onsubmit="func()" >
+        
           <h1 class="page-name">Contact Me</h1>
           <input
             type="hidden"
@@ -207,5 +211,6 @@
       </section>
     </div>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/@botpoison/browser" async></script>
   </body>
 </html>
